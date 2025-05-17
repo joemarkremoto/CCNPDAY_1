@@ -155,7 +155,13 @@ IP CAMERA needs MAC dhcp Reservation:
 CoreBABA:
 ip dhcp pool CAM6
 host 10.32.50.6 255.255.255.0
-client-identifier 001a.0709.c25f
+client-identifier 001a.070b.471d
+end
+sh ip dhcp binding
+
+ip dhcp pool CAM8
+host 10.32.50.8 255.255.255.0
+client-identifier 001a.0704.7f63
 end
 sh ip dhcp binding
 
